@@ -1,0 +1,36 @@
+@use './../../../../style/main' as *;
+
+.card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  height: 400px;
+  overflow: hidden;
+  padding: 10px 10px;
+  white-space: pre-line;
+  @extend %background;
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    overflow: hidden;
+
+
+    & img {
+      height: 200px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+
+  &__price {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+}

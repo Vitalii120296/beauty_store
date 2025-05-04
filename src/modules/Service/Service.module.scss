@@ -1,0 +1,9 @@
+@use './../../style/main' as *;
+
+.service {
+  --column-size: 252px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--column-size), 1fr));
+  gap: 40px 16px;
+}

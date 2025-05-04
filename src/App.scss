@@ -1,0 +1,33 @@
+@use './style/main.scss' as *;
+
+html,
+body {
+  height: 100%;
+  scroll-behavior: smooth;
+  background-image: url('./img/bgphoto.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: $text;
+  font-family: Mont, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+
+  & a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.footer {}

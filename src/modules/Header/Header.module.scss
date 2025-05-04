@@ -1,0 +1,24 @@
+@use './../../style/main' as *;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: rgb(176, 144, 89);
+  box-shadow: 15px 15px 20px black, -15px -1px 20px black;
+  border-radius: 1rem;
+  margin-block: 20px;
+  box-sizing: border-box;
+  padding-inline: 20px;
+
+  &__logo {
+    height: 100%;
+
+    & img {
+      height: inherit;
+      scale: 1.3;
+      object-fit: cover;
+      object-position: 0 7px;
+    }
+  }
+}
