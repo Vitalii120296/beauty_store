@@ -1,0 +1,10 @@
+{
+  "title": "Contact form",
+  "subtitle": "Fill out the form and our specialist will contact you within an hour",
+  "selectService": "Select a service",
+  "namePlaceholder": "Your Name",
+  "emailPlaceholder": "Your Email",
+  "messagePlaceholder": "Your Message",
+  "sendButton": "Send Message",
+  "successMessage": "Message sent successfully!"
+}

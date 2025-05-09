@@ -2,6 +2,11 @@
 
 .nav {
   height: 100%;
+  display: none;
+
+  @include on-tablet {
+    display: flex;
+  }
 
   &__list {
     display: flex;
@@ -26,15 +31,22 @@
     padding: 0 15px;
     box-sizing: border-box;
     position: relative;
-    font-size: 22px;
+    font-size: 13px;
     color: black;
     transition: all $transition;
+
+    @include on-tablet {
+
+      font-size: 22px;
+    }
 
 
     &:hover {
       text-shadow: 0px 0px 15px white,
-      0px 0px 25px white,
-      0px 0px 35px white;
+        0px 0px 25px white,
+        0px 0px 35px white;
     }
   }
+
+
 }

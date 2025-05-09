@@ -1,141 +1,318 @@
 [
   {
-    "img":"./img/services/hydraFacial.jpg",
-    "name": "HYDRA FACIAL",
-    "price": "$109.99",
-    "benefits": "Benefits: improves skin elasticity, cleanses, reduces pores and wrinkles, moisturizes, and gives it a healthy glow.",
-    "benefits-ru": "Бенефиты:  улучшает упругость кожи, очищает, уменьшает поры и марщины,увлажняет,  и придает ей здоровый блеск.",
-    "skin": "Skin type: acne, dryness, oily skin, wrinkles.",
-    "skin-ru": "Тип кожи: акне, сухой, жирной кожей, морщины."
+    "url": "hydra_facial",
+    "img": "./img/services/hydraFacial.jpg",
+    "title": {
+      "en": "Hydra Facial",
+      "ru": "Гидра фейшл"
+    },
+    "price": {
+      "en": "$109.99",
+      "ru": "$109.99"
+    },
+    "description": {
+      "en": "Benefits: improves skin elasticity, cleanses, reduces pores and wrinkles, moisturizes, and gives it a healthy glow.",
+      "ru": "Бенефиты: улучшает упругость кожи, очищает, уменьшает поры и морщины, увлажняет и придает ей здоровый блеск."
+    },
+    "skinType": {
+      "en": "Skin type: acne, dryness, oily skin, wrinkles.",
+      "ru": "Тип кожи: акне, сухая, жирная кожа, морщины."
+    }
   },
   {
-    "img":"./img/services/dermaplaningFacial.jpg",
-    "name": "DERMAPLANING FACIAL",
-    "price": "$119.99",
-    "benefits": "Benefits: removal of dead cells and vellus hair, improved absorption of nutrients.",
-    "benefits-ru": "Бенефиты: удаление омертвевших клеток и пушковых волос, улучшение всасывания питательных средств.",
-    "skin": "Skin type: oily, combination skin.",
-    "skin-ru": "Типы кожи: жирная, комбинированная."
+    "url": "dermaplaning_facial",
+    "img": "./img/services/dermaplaningFacial.jpg",
+    "title": {
+      "en": "Dermaplaning Facial",
+      "ru": "Дермапланинг фейшл"
+    },
+    "price": {
+      "en": "$119.99",
+      "ru": "$119.99"
+    },
+    "description": {
+      "en": "Benefits: removal of dead cells and vellus hair, improved absorption of nutrients.",
+      "ru": "Бенефиты: удаление омертвевших клеток и пушковых волос, улучшение всасывания питательных веществ."
+    },
+    "skinType": {
+      "en": "Skin type: oily, combination skin.",
+      "ru": "Тип кожи: жирная, комбинированная."
+    }
   },
   {
-    "img":"./img/services/ultrasonicFacial.jpg",
-    "name": "ULTRASONIC FACIAL",
-    "price": "$119.99",
-    "benefits": "Benefits: high-frequency ultrasound wave enhances blood circulation, promotes cell renewal, prevents acne, prevents inflammation, general skin rejuvenation.",
-    "benefits-ru": "Бенефиты: высокочастотная ультразвуковая волна усиливает кровообращение, способствует обновлению клеток, профилактика акне, предотвращяет воспаления,, общее омоложение кожи.",
-    "skin": "Skin type: ALL",
-    "skin-ru": "Типы кожи: все типы кожи."
+    "url": "ultrasonic_facial",
+    "img": "./img/services/ultrasonicFacial.jpg",
+    "title": {
+      "en": "Ultrasonic Facial",
+      "ru": "Ультразвуковой фейшл"
+    },
+    "price": {
+      "en": "$119.99",
+      "ru": "$119.99"
+    },
+    "description": {
+      "en": "Benefits: high-frequency ultrasound wave enhances blood circulation, promotes cell renewal, prevents acne, prevents inflammation, general skin rejuvenation.",
+      "ru": "Бенефиты: высокочастотная ультразвуковая волна усиливает кровообращение, способствует обновлению клеток, профилактика акне, предотвращает воспаления, общее омоложение кожи."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: все типы кожи."
+    }
   },
   {
-    "img":"./img/services/facialPillungs.jpg",
-    "name": "FACIAL PILLINGS",
-    "price": "$139.99 - $269.99",
-    "benefits": "Benefits: Removes dead skin cells, reduces wrinkles and fine lines, fights acne, reduces pigmentation.",
-    "benefits-ru": "Бенефиты: удаляет омертвевшие клетки кожи, уменьшает морщины и тонкие линии, борьба с акне, уменьшает пигментацию.",
-    "skin": "Skin type: ALL",
-    "skin-ru": "Типы кожи: все типы кожи."
+    "url": "facial_pillings",
+    "img": "./img/services/facialPillungs.jpg",
+    "title": {
+      "en": "Facial Pillings",
+      "ru": "Пиллинг для лица"
+    },
+    "price": {
+      "en": "$139.99 - $269.99",
+      "ru": "$139.99 - $269.99"
+    },
+    "description": {
+      "en": "Benefits: Removes dead skin cells, reduces wrinkles and fine lines, fights acne, reduces pigmentation.",
+      "ru": "Бенефиты: удаляет омертвевшие клетки кожи, уменьшает морщины и тонкие линии, борьба с акне, уменьшает пигментацию."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: все типы кожи."
+    }
   },
   {
-    "img":"./img/services/faceDecolleteMassag.jpg",
-    "name": "FACE & DECOLLETE MASSAG",
-    "price": "$99.99",
-    "benefits": "Benefits: improves blood circulation, relaxes muscles, reduces swelling, lymphatic drainage, tightens facial contours.",
-    "benefits-ru": "Бенефиты: улучшает циркуляцию крови,  расслабляет мышцы, снимает отечность, лимфодренаж, подтягивает контур лица,",
-    "skin": "Skin type: ALL",
-    "skin-ru": "Типы кожи: все типы кожи."
+    "url": "face_and_decollete_massage",
+    "img": "./img/services/faceDecolleteMassage.jpg",
+    "title": {
+      "en": "Face and decollete massage",
+      "ru": "Массаж лица и зоны декольте"
+    },
+    "price": {
+      "en": "$99.99",
+      "ru": "$99.99"
+    },
+    "description": {
+      "en": "Benefits: improves blood circulation, relaxes muscles, reduces swelling, lymphatic drainage, tightens facial contours.",
+      "ru": "Бенефиты: улучшает циркуляцию крови, расслабляет мышцы, снимает отечность, лимфодренаж, подтягивает контур лица."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Типы кожи: все типы кожи."
+    }
   },
   {
-    "img":"./img/services/microneedling.jpg",
-    "name": "MICRONEEDLING",
-    "price": "$174.99",
-    "benefits": "Benefits: stimulates deep skin layers for natural rejuvenation, production of collagen and elastin, improves skin elasticity, reduces pores, reduces scars, removes wrinkles.",
-    "benefits-ru": "Бенефиты: стимулирует глубокие слои кожи для естественного омоложения, выработка коллагена и эластина, улучшает упругость кожи, сокращает поры, уменьшение рубцов и шрамов, убирает морщины.",
-    "skin": "Skin type: ALL",
-    "skin-ru": "Типы кожи: все типы кожи."
+    "url": "microneedling",
+    "img": "./img/services/microneedling.jpg",
+    "title": {
+      "en": "Microneedling",
+      "ru": "Микронидлинг"
+    },
+    "price": {
+      "en": "$174.99",
+      "ru": "$174.99"
+    },
+    "description": {
+      "en": "Benefits: stimulates deep skin layers for natural rejuvenation, production of collagen and elastin, improves skin elasticity, reduces pores, reduces scars, removes wrinkles.",
+      "ru": "Бенефиты: стимулирует глубокие слои кожи для естественного омоложения, выработка коллагена и эластина, улучшает упругость кожи, сокращает поры, уменьшение рубцов и шрамов, убирает морщины."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Типы кожи: все типы кожи."
+    }
   },
   {
-    "img":"./img/services/scalpNeedling.jpg",
-    "name": "SCALP NEEDLING / TRICH NEEDLING",
-    "price": "$174.99",
-    "benefits": "Benefits: stimulates hair growth, promotes better nutrition of hair follicles and activates new hair growth, improves hair density, combats dandruff, dry scalp and itching, local alopecia, for people with hereditary baldness.",
-    "benefits-ru": "Бенефиты: стимуляция роста волос,  способствует лучшему питанию волосяных фолликулов и активирует рост новых волос, улучшить плотность волос,  борется с перхотью, сухостью кожи головы и зудом, месная алопеция, для людей с наследственным облысением.",
-    "skin": "Skin type: ALL",
-    "skin-ru": "Типы кожи: все типы кожи."
+    "url": "scalp_needling_or_trich_needling",
+    "img": "./img/services/scalpNeedling.jpg",
+    "title": {
+      "en": "Scalp needling / trich needling",
+      "ru": "Микронидлинг кожи головы / трихонидлинг"
+    },
+    "price": {
+      "en": "$174.99",
+      "ru": "$174.99"
+    },
+    "description": {
+      "en": "Benefits: stimulates hair growth, promotes better nutrition of hair follicles and activates new hair growth, improves hair density, combats dandruff, dry scalp and itching, local alopecia, for people with hereditary baldness.",
+      "ru": "Бенефиты: стимуляция роста волос,  способствует лучшему питанию волосяных фолликулов и активирует рост новых волос, улучшить плотность волос,  борется с перхотью, сухостью кожи головы и зудом, месная алопеция, для людей с наследственным облысением."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Типы кожи: все типы кожи."
+    }
   },
   {
-    "img":"./img/services/europeanDeepPoreCleansing.jpg",
-    "name": "EUROPEAN DEEP PORE CLEANSING",
-    "price": "$60.99",
-    "benefits": "Benefits: cleanses pores and excess sebum, prevents inflammation and acne, exfoliates, reduces breakouts, smoothes skin.",
-    "benefits-ru": "Приемущества: очищение пор и излишки кожного сала, предотвращяет образования воспалений и акне, эксфолиация, снижение высыпаний, гладкость кожи.",
-    "skin": "Skin type: oily, combination skin.",
-    "skin-ru": "Типы кожи: жирная,  комбинированная."
+    "url": "european_deep_pore_cleaning",
+    "img": "./img/services/europeanDeepPoreCleansing.jpg",
+    "title": {
+      "en": "European deep pore cleaning",
+      "ru": "Европейская глубокая очистка пор"
+    },
+    "price": {
+      "en": "$60.99",
+      "ru": "$60.99"
+    },
+    "description": {
+      "en": "Benefits: cleanses pores and excess sebum, prevents inflammation and acne, exfoliates, reduces breakouts, smoothes skin.",
+      "ru": "Приемущества: очищение пор и излишки кожного сала, предотвращяет образования воспалений и акне, эксфолиация, снижение высыпаний, гладкость кожи."
+    },
+    "skinType": {
+      "en": "Skin type: oily, combination skin.",
+      "ru": "Типы кожи: жирная, комбинированная."
+    }
   },
   {
-    "img":"./img/services/pro-acneProgram.jpg",
-    "name": "PRO-ACNE PROGRAM",
-    "price": "call for price",
-    "benefits": "Benefits: Helps in 99% of cases in the treatment of adolescent, adult, hormonal acne of any type and degree, a special program for the treatment of acne, control for 3-4 months with a guarantee of lifelong remission. Without systemic retinoids, antibiotics and COCs.",
-    "benefits-ru": "Бенефиты: Помогает в 99% случаев при лечении подросткового, взрослого, гормонального акне любого типа и степени, специальная программа по лечению акне, контроль за 3-4 месяца с гарантией пожизненной ремиссии, без системных ретиноидов, антибиотиков и КОК.",
-    "skin": "Skin type: ALL",
-    "skin-ru": "Типы кожи: все типы кожи."
+    "url": "pro-acne_program",
+    "img": "./img/services/pro-acneProgram.jpg",
+    "title": {
+      "en": "Pro-acne program",
+      "ru": "Программа для лечения акне"
+    },
+    "price": {
+      "en": "call for price",
+      "ru": "Позвоните для уточнения цены"
+    },
+    "description": {
+      "en": "Benefits: Helps in 99% of cases in the treatment of adolescent, adult, hormonal acne of any type and degree, a special program for the treatment of acne, control for 3-4 months with a guarantee of lifelong remission. Without systemic retinoids, antibiotics and COCs.",
+      "ru": "Бенефиты: Помогает в 99% случаев при лечении подросткового, взрослого, гормонального акне любого типа и степени, специальная программа по лечению акне, контроль за 3-4 месяца с гарантией пожизненной ремиссии, без системных ретиноидов, антибиотиков и КОК."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Типы кожи: все типы кожи."
+    }
   },
   {
-    "img":"./img/services/philipsZoomTeethWhitening.jpg",
-    "name": "PHILIPS ZOOM TEETH WHITENING",
-    "price": "$299.99",
-    "benefits": "Benefits: fast results, teeth can become noticeably whiter in just one procedure lasts 3 hour, special gel and lamp provide safe whitening, long-lasting effect, minimal discomfort.",
-    "benefits-ru": "Бенефиты: быстрый результат, зубы могут стать заметно белее всего за одну процедура которая длится 3 часа, специальный гель и лампа обеспечивают безопасное отбеливание, долговременный эффект, минимальный дискомфорт.",
-    "additionally": "Touch up for returning clients within 3 months $119.99"
+    "url": "philips_zoom_teeth_whitening",
+    "img": "./img/services/philipsZoomTeethWhitening.jpg",
+    "title": {
+      "en": "Philips zoom teeth whitening",
+      "ru": "Отбеливание зубов Philips Zoom"
+    },
+    "price": {
+      "en": "$299.99",
+      "ru": "$299.99"
+    },
+    "description": {
+      "en": "Benefits: fast results, teeth can become noticeably whiter in just one procedure lasts 3 hour, special gel and lamp provide safe whitening, long-lasting effect, minimal discomfort.",
+      "ru": "Бенефиты: быстрый результат, зубы могут стать заметно белее всего за одну процедура которая длится 3 часа, специальный гель и лампа обеспечивают безопасное отбеливание, долговременный эффект, минимальный дискомфорт."
+    },
+    "additionally": {
+      "en": "Touch up for returning clients within 3 months $119.99",
+      "ru": "Коррекция для возвращающихся клиентов в течение 3 месяцев - $119.99"
+    }
   },
   {
-    "img":"./img/services/philipsZoomTeethWhitening.jpg",
-    "name": "PHILIPS ZOOM TEETH WHITENING (take supplies home)",
-    "price": "$249.99 + $49.99",
-    "benefits": "Benefits: fast results, teeth can become noticeably whiter in just one procedure lasts 3 hour, special gel and lamp provide safe whitening, long-lasting effect, minimal discomfort.",
-    "benefits-ru": "Бенефиты: быстрый результат, зубы могут стать заметно белее всего за одну процедура которая длится 3 часа, специальный гель и лампа обеспечивают безопасное отбеливание, долговременный эффект, минимальный дискомфорт.",
-    "additionally": "Touch up for returning clients within 6 months $119.99"
+    "url": "philips_zoom_teeth_whitening_home",
+    "img": "./img/services/philipsZoomTeethWhitening.jpg",
+    "title": {
+      "en": "Philips zoom teeth whitening (take supplies home)",
+      "ru": "Отбеливание зубов Philips Zoom (с комплектом для домашнего использования)"
+    },
+    "price": {
+      "en": "$249.99 + $49.99",
+      "ru": "$249.99 + $49.99"
+    },
+    "description": {
+      "en": "Benefits: fast results, teeth can become noticeably whiter in just one procedure lasts 3 hour, special gel and lamp provide safe whitening, long-lasting effect, minimal discomfort.",
+      "ru": "Бенефиты: быстрый результат, зубы могут стать заметно белее всего за одну процедура которая длится 3 часа, специальный гель и лампа обеспечивают безопасное отбеливание, долговременный эффект, минимальный дискомфорт."
+    },
+    "additionally": {
+      "en": "Touch up for returning clients within 6 months $119.99",
+      "ru": "Коррекция для возвращающихся клиентов в течение 6 месяцев - $119.99"
+    }
   },
   {
-    "img":"./img/services/ems-bodyElectromagneticStimulation.jpg",
-    "name": "EMS-BODY ELECTROMAGNETIC STIMULATION",
-    "price": "FULL BODY $139.99\nPARCIAL $69.99",
-    "benefits": "Benefits: EMS sends electrical signals to the muscles causing them to contract and engage, similar to voluntary movements, increased calorie expenditure and weight loss, cellulite reduction, greater overall fat burning effect when combined with a healthy diet.Body Parts:\n1. Abdomen - to strengthen the abdominal muscles and reduce body fat. \n2. Thighs - to tone the muscles and improve shape. \n3. Buttocks - to tighten and firm. \n4. Arms - to tone and reduce sagging skin and body fat.\n",
-    "benefits-ru": "Приемущества: EMS посылают электрические сигналы в мышцы, заставляя их сокращаться и вовлекаться, подобно произвольным движениям, повышенный расход калорий и содействия потере веса, уменьшение целюлита, большему общему эффекту сжигания жира в сочетании со здоровой диетой.\nЧасти тела:\n1. Живот — для укрепления мышц пресса и снижения жировых отложений.\n2. Бёдра — для тонизирования мышц и улучшения формы.\n3. Ягодицы — для подтяжки и укрепления.\n4. Руки — для тонуса и уменьшения дряблости кожи и жировых отложений."
+    "url": "esm-body_electromagnetic_stimulation",
+    "img": "./img/services/ems-bodyElectromagneticStimulation.jpg",
+    "title": {
+      "en": "Esm-body electromagnetic stimulation",
+      "ru": "ЭМС-телесная электромагнитная стимуляция"
+    },
+    "price": {
+      "en": "Full body $139.99\nParcial $69.99",
+      "ru": "Полное тело - 139.99\nЧастичное - $69.99"
+    },
+    "description": {
+      "en": "Benefits: EMS sends electrical signals to the muscles causing them to contract and engage, similar to voluntary movements, increased calorie expenditure and weight loss, cellulite reduction, greater overall fat burning effect when combined with a healthy diet. Body Parts:\n1. Abdomen - to strengthen the abdominal muscles and reduce body fat.\n2. Thighs - to tone the muscles and improve shape.\n3. Buttocks - to tighten and firm.\n4. Arms - to tone and reduce sagging skin and body fat.",
+      "ru": "Приемущества: EMS посылают электрические сигналы в мышцы, заставляя их сокращаться и вовлекаться, подобно произвольным движениям, повышенный расход калорий и содействия потере веса, уменьшение целюлита, большему общему эффекту сжигания жира в сочетании со здоровой диетой.\nЧасти тела:\n1. Живот — для укрепления мышц пресса и снижения жировых отложений.\n2. Бёдра — для тонизирования мышц и улучшения формы.\n3. Ягодицы — для подтяжки и укрепления.\n4. Руки — для тонуса и уменьшения дряблости кожи и жировых отложений."
+    }
   },
   {
-    "img":"./img/services/banageBodyWrap.jpg",
-    "name": "BANDAGE BODY WRAP",
-    "price": "FULL BODY WRAP $149.99\nHERBEL WRAP $139.99\nSEAWEED BODY WRAP $139.99",
-    "benefits": "Benefits: removes toxins and waste from the body, improves blood circulation and lymphatic drainage, reduces swelling and improves body contours, nourishes and moisturizes the skin, makes it softer and smoother, promotes muscle relaxation and overall well-being.",
-    "benefits-ru": "Преимущества: выводит токсины и шлаки из организма, улучшает кровообращение и лимфодренаж, снимает отеки и улучшает контуры тела, питает и увлажняет кожу, делает ее более мягкой и гладкой, способствует расслаблению мышц и общему самочувствию."
+    "url": "bandage_body_wrap",
+    "img": "./img/services/banageBodyWrap.jpg",
+    "title": {
+      "en": "Bandage body wrap",
+      "ru": "Бандажный обертывание тела"
+    },
+    "price": {
+      "en": "Full body wrap - $149.99\nHerbel wrap - $139.99\nSeaweed body wrap - $139.99",
+      "ru": "Полное обертывание тела - $149.99\nТравяное обертывание - $139.99\nОбёртывание из водорослей - $139.99"
+    },
+    "description": {
+      "en": "Benefits: removes toxins and waste from the body, improves blood circulation and lymphatic drainage, reduces swelling and improves body contours, nourishes and moisturizes the skin, makes it softer and smoother, promotes muscle relaxation and overall well-being.",
+      "ru": "Преимущества: выводит токсины и шлаки из организма, улучшает кровообращение и лимфодренаж, снимает отеки и улучшает контуры тела, питает и увлажняет кожу, делает ее более мягкой и гладкой, способствует расслаблению мышц и общему самочувствию."
+    }
   },
   {
-    "img":"./img/services/banageBodyWrap.jpg",
-    "name": "BODY WRAPING",
-    "price": "FULL BODY BANDAGE  WRAP $149.99\nHERBEL BODY WRAP $139.99\nSEAWEED LEAVES BODY WRAP $139.99",
-    "benefits": "Benefits: removes toxins and waste from the body, improves blood circulation and lymphatic drainage, reduces swelling and improves body contours, nourishes and moisturizes the skin, makes it softer and smoother, promotes muscle relaxation and overall well-being.",
-    "benefits-ru": "Преимущества: выводит токсины и шлаки из организма, улучшает кровообращение и лимфодренаж, снимает отеки и улучшает контуры тела, питает и увлажняет кожу, делает ее более мягкой и гладкой, способствует расслаблению мышц и общему самочувствию."
+    "url": "body_wraping",
+    "img": "./img/services/banageBodyWrap.jpg",
+    "title": {
+      "en": "Body wrapping",
+      "ru": "Обертывание тела"
+    },
+    "price": {
+      "en": "Full body bandage wrap - $149.99 \nHerbel body wrap - $139.99\nSeaweed leaves body wrap - $139.99",
+      "ru": "Полное обертывание тела бинтами - $149.99\nТравяное обертывание тела - $139.99\nОбертывание тела морскими водорослями - $139.99"
+    },
+    "description": {
+      "en": "Benefits: removes toxins and waste from the body, improves blood circulation and lymphatic drainage, reduces swelling and improves body contours, nourishes and moisturizes the skin, makes it softer and smoother, promotes muscle relaxation and overall well-being.",
+      "ru": "Преимущества: выводит токсины и шлаки из организма, улучшает кровообращение и лимфодренаж, снимает отеки и улучшает контуры тела, питает и увлажняет кожу, делает ее более мягкой и гладкой, способствует расслаблению мышц и общему самочувствию."
+    }
   },
   {
-    "img":"./img/services/ombre.jpg",
-    "name": "OMBRE/POWDER BROWS",
-    "price": "$499.99 (none previous permanent)",
-    "benefits": "Benefits: creates a soft natural look, they can last from one to three years, hey can be tailored to your desired shape and color, giving a natural look, cover gaps or sparse areas.",
-    "benefits-ru": "Преимущества: создают мягкий естественный вид, могут держаться от одного до трех лет, их можно подогнать под желаемую форму и цвет, придавая естественный вид, скрывая пробелы или редкие участки."
+    "url": "ombre_or_powder_brows",
+    "img": "./img/services/ombre.jpg",
+    "title": {
+      "en": "Ombre/powder brows",
+      "ru": "Омбре/пудровые брови"
+    },
+    "price": {
+      "en": "$499.99 (none previous permanent)",
+      "ru": "$499.99 (без предыдущего перманентного макияжа)"
+    },
+    "description": {
+      "en": "Benefits: creates a soft natural look, they can last from one to three years, hey can be tailored to your desired shape and color, giving a natural look, cover gaps or sparse areas.",
+      "ru": "Преимущества: создают мягкий естественный вид, могут держаться от одного до трех лет, их можно подогнать под желаемую форму и цвет, придавая естественный вид, скрывая пробелы или редкие участки."
+    }
   },
   {
-    "img":"./img/services/tining-lamination.jpg",
-    "name": "TINTING (Brows & Lashes)",
-    "price": "$59.99",
-    "benefits": "Benefits: enhances color and definition without daily makeup, deal for light or sparse hairs, making them more visible, waterproof, saves time in daily routines, results last around 3–6 weeks.",
-    "benefits-ru": "Преимущества: усиливает цвет и четкость без ежедневного макияжа, подходит для светлых или редких волосков, делая их более заметными, водостойкая, экономит время в повседневной рутине, результаты сохраняются около 3–6 недель."
+    "url": "tinting",
+    "img": "./img/services/tining-lamination.jpg",
+    "title": {
+      "en": "Tinting (Brows & Lashes)",
+      "ru": "Тинтинг (брови и ресницы)"
+    },
+    "price": {
+      "en": "$59.99",
+      "ru": "$59.99"
+    },
+    "description": {
+      "en": "Benefits: enhances color and definition without daily makeup, ideal for light or sparse hairs, making them more visible, waterproof, saves time in daily routines, results last around 3–6 weeks.",
+      "ru": "Преимущества: усиливает цвет и четкость без ежедневного макияжа, подходит для светлых или редких волосков, делая их более заметными, водостойкая, экономит время в повседневной рутине, результаты сохраняются около 3–6 недель."
+    }
   },
   {
-    "img":"./img/services/tining-lamination.jpg",
-    "name": "LAMINATION (Brows & Lashes)",
-    "price": "$59.99",
-    "benefits": "Benefits: netraightens and lifts brow hairs to create a fuller, fluffier look, helps reshape unruly or thinning brows for a sleek, polished appearance, can cover gaps or uneven growth, long-lasting results (typically 4–6 weeks).",
-    "benefits-ru": "Преимущества: выпрямляет и приподнимает волоски бровей, создавая более густые и пушистые брови.\nПомогает изменить форму непослушных или редких бровей, придавая им гладкий, ухоженный вид, может скрывать пробелы или неравномерный рост, долгосрочный результат (обычно 4–6 недель)."
+    "url": "lamination",
+    "img": "./img/services/tining-lamination.jpg",
+    "title": {
+      "en": "Lamination (Brows & Lashes)",
+      "ru": "Ламинирование (брови и ресницы)"
+    },
+    "price": {
+      "en": "$59.99",
+      "ru": "$59.99"
+    },
+    "description": {
+      "en": "Benefits: straightens and lifts brow hairs to create a fuller, fluffier look, helps reshape unruly or thinning brows for a sleek, polished appearance, can cover gaps or uneven growth, long-lasting results (typically 4–6 weeks).",
+      "ru": "Преимущества: выпрямляет и приподнимает волоски бровей, создавая более густые и пушистые брови. Помогает изменить форму непослушных или редких бровей, придавая им гладкий, ухоженный вид, может скрывать пробелы или неравномерный рост, долгосрочный результат (обычно 4–6 недель)."
+    }
   }
 ]

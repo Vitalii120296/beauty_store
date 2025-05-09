@@ -1,7 +1,8 @@
-import { Outlet } from 'react-router-dom'
-import './App.scss'
-import { Header } from './modules/Header'
-import { Footer } from './modules/Footer'
+import { Outlet } from 'react-router-dom';
+import './App.scss';
+import { Header } from './modules/Header';
+import { Footer } from './modules/Footer';
+import './i18n';
 
 function App() {
 

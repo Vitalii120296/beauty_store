@@ -1,10 +1,24 @@
-export interface Service {
+export interface ServiceType {
+  url: string;
   img: string;
-  name: string;
-  price: string;
-  benefits: string;
-  "benefits-ru": string;
-  skin?: string;
-  "skin-ru"?: string;
-  additionally?: string;
+  title: {
+    en: string;
+    ru: string;
+  };
+  price: {
+    en: string;
+    ru: string;
+  };
+  description: {
+    en: string;
+    ru: string;
+  };
+  skinType: {
+    en: string;
+    ru: string;
+  };
+  additionally?: {
+    en: string;
+    ru: string;
+  };
 }

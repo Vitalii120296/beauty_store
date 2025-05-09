@@ -1,9 +1,116 @@
 @use './../../style/main' as *;
 
-.service {
-  --column-size: 252px;
+.serviceSection {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
 
+.serviceGrid {
+  --column-size: 252px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--column-size), 1fr));
   gap: 40px 16px;
+
+  @include on-tablet {
+  --column-size: 290px;
+    
+  }
+}
+
+.waxing {
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  color: $text;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  @extend %background;
+  
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+
+    @include on-desktop {
+      flex-direction: row;
+      column-gap: 25px;
+      justify-content: space-between;
+    }
+  }
+
+  & span {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  @include on-desktop {
+    justify-content: space-around;
+
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @include on-desktop {
+      width: 320px;
+
+    }
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: $text;
+
+    @media (min-width: $desktop-min-width) {
+      font-size: 2rem;
+    }
+  }
+
+  &__subtitle {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: $text;
+  }
+
+
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.25rem 0;
+      font-size: 1rem;
+      column-gap: 2rem;
+      border-bottom: 1px solid gray;
+    }
+    
+
+  }
+
+  &__note {
+    font-style: italic;
+    color: darken($text, 20%);
+    margin-bottom: 2rem;
+  }
+
+  &__benefits {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    color: $text;
+    box-sizing: border-box;
+
+  }
 }

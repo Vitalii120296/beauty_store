@@ -1,0 +1,10 @@
+{
+  "title": "Форма обратной связи",
+  "subtitle": "Заполните форму, и наш специалист свяжется с вами в течение часа",
+  "selectService": "Выберите услугу",
+  "namePlaceholder": "Ваше имя",
+  "emailPlaceholder": "Ваш Email",
+  "messagePlaceholder": "Ваше сообщение",
+  "sendButton": "Отправить сообщение",
+  "successMessage": "Сообщение успешно отправлено!"
+}

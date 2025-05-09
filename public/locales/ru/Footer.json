@@ -1,0 +1,18 @@
+{
+  "contactTitle": "Связаться с нами",
+  "phone": "Телефон: 253-844-5804",
+  "email": "Почта: info@erasy.com",
+  "address": "Адрес: 4924 109th St SW,\nLakewood, WA 98499",
+
+  "hoursTitle": "Часы работы",
+  "monFri": "Пн - Пт: 9:00 - 17:00",
+  "sat": "Сб: 11:00 - 16:00",
+  "sun": "Вс: Выходной",
+
+  "navigationTitle": "Навигация",
+  "home": "Главная",
+  "services": "Услуги",
+  "contact": "Контакты",
+
+  "followUs": "Мы в соцсетях"
+}

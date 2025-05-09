@@ -11,20 +11,31 @@
     flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 4rem;
-    height: 50dvh;
+    height: 70dvh;
 
 
     &_wrapper {
       display: flex;
       flex-direction: column;
-      width: 50%;
       overflow: hidden;
+      width: 100%;
+
+      @include on-tablet {
+        width: 70%;
+      }
+
+      @include on-desktop {
+        width: 50%;
+
+      }
 
       h1 {
-        font-size: 3rem;
+        font-size: 4rem;
+        line-height: 4.5rem;
         color: $text;
         margin-bottom: 1rem;
         font-weight: bold;
+
       }
 
       p {
@@ -38,11 +49,13 @@
       background-color: rgb(176, 144, 89);
       border: none;
       border-radius: 50px;
-      padding: 0.75rem 4rem;
       cursor: pointer;
       transition: background $transition;
       width: 200px;
       text-wrap: nowrap;
+      padding: 0;
+      display: flex;
+      justify-content: center;
 
       &:hover {
         background-color: rgb(57, 16, 5);
@@ -52,7 +65,9 @@
         color: white;
         text-decoration: none;
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 1.2rem;
+        padding: 0.75rem 4rem;
+
       }
     }
 
@@ -69,8 +84,10 @@
   }
 
   &__about {
-    padding: 6rem 0;
+    padding: 6rem 1rem;
+    margin: 3rem 0;
     text-align: center;
+    @extend %background;
 
     &_title {
       font-size: 2.5rem;
@@ -96,20 +113,24 @@
     }
 
     &_cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
       gap: 2rem;
+
+      @include on-desktop {
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
+
+      }
     }
 
     &_card {
       border-radius: 1rem;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
       padding: 2rem;
-      min-width: 220px;
-      max-width: 300px;
       transition: transform $transition;
       @extend %background;
+
+      @include on-desktop {}
 
 
       &:hover {
@@ -124,8 +145,11 @@
 
       &_img {
         box-shadow: -9px 8px 10px black;
+
         img {
           width: 100%;
+          height: 250px;
+          object-fit: cover;
           border-radius: 0.75rem;
         }
       }
@@ -137,190 +161,267 @@
       }
     }
   }
-}
 
-/* Адаптивність */
-@media (max-width: 768px) {
-  .home__title {
-    flex-direction: column;
+  &__benefits {
+    padding: 1rem;
     text-align: center;
-
-    &_img {
-      img {
-        max-width: 90%;
-      }
-    }
-
-    &_wrapper {
-      h1 {
-        font-size: 2.2rem;
-      }
-    }
-  }
-
-  .home__expertise_cards {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-.home__benefits {
-  padding: 1rem 0;
-  text-align: center;
-  border-radius: 1rem;
-
-  &_title {
-    font-size: 2.5rem;
-    color: $text;
-    margin-bottom: 3rem;
-  }
-
-  &_list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-  }
-
-  &_benefit {
-    min-width: 220px;
-    max-width: 260px;
     border-radius: 1rem;
-    padding: 2rem;
-    transition: transform 0.3s ease;
-    @extend %background;
 
-    &:hover {
-      transform: translateY(-8px);
+    &_title {
+      font-size: 2.5rem;
+      color: $text;
+      margin-bottom: 3rem;
     }
 
-    img {
-      width: 150px;
+    &_list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 2rem;
+
+      @include on-desktop {
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
+
+      }
+    }
+
+    &_benefit {
+      border-radius: 1rem;
+      padding: 2rem;
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+      @extend %background;
+
+      &_img {
+        height: 150px;
+        border-radius: 1rem;
+        overflow: hidden;
+      }
+
+      &:hover {
+        transform: translateY(-8px);
+      }
+
+      img {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 1rem;
+      }
+
+      h3 {
+        color: $text;
+        font-size: 1.3rem;
+        margin-bottom: 0.75rem;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: $text;
+      }
+    }
+  }
+
+  &__certificates {
+    padding: 1rem 0;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 4rem;
+    // @extend %background;
+
+    &_title {
+      font-size: 2.5rem;
+      color: $text;
       margin-bottom: 1rem;
     }
 
-    h3 {
-      color: $secondary;
-      font-size: 1.3rem;
-      margin-bottom: 0.75rem;
-    }
-
-    p {
-      font-size: 1rem;
-      line-height: 1.6;
+    &_subtitle {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
       color: $text;
     }
-  }
-}
 
-@media (max-width: 768px) {
-  .home__benefits_list {
-    flex-direction: column;
-    align-items: center;
-  }
-}
+    &_gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      justify-items: center;
 
-.home__certificates {
-  padding: 1rem 0;
-  border-radius: 1rem;
-  text-align: center;
-  margin-top: 4rem;
-  // @extend %background;
+      img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        border-radius: 0.75rem;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+      }
+    }
 
-  &_title {
-    font-size: 2.5rem;
-    color: $text;
-    margin-bottom: 1rem;
-  }
-
-  &_subtitle {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    color: $text;
-  }
-
-  &_gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1.5rem;
-    justify-items: center;
-
-    img {
-      width: 100%;
-      max-width: 250px;
-      height: auto;
-      border-radius: 0.75rem;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
-      transition: transform 0.3s ease;
+    &_img {
+      height: 170px;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
 
       &:hover {
         transform: scale(1.05);
       }
+
+      & img {
+        height: 170px;
+        object-fit: cover;
+      }
+    }
+
+    &_active {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    
+      img {
+        max-width: 90%;
+        max-height: 90%;
+        object-fit: contain;
+        border-radius: 1rem;
+      }
+    
+      button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: $bg;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        cursor: pointer;
+        z-index: 1001;
+    
+        &:hover {
+          background-color: $bgh;
+          color: $text;
+        }
+      }
     }
   }
-}
 
-.home__popular {
-  padding: 1rem 0;
-  text-align: center;
-  border-radius: 1rem;
-
-  &_title {
-    font-size: 2.5rem;
-    color: $text;
-    margin-bottom: 3rem;
-  }
-
-  &_list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-  }
-
-  &_card {
+  &__popular {
+    padding: 1rem 0;
+    text-align: center;
     border-radius: 1rem;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
-    padding: 2rem;
-    max-width: 280px;
-    text-align: left;
-    transition: transform 0.3s ease;
-    @extend %background;
-
-    &:hover {
-      transform: translateY(-8px);
-    }
-
-    img {
-      width: 100%;
-      border-radius: 0.75rem;
-      margin-bottom: 1rem;
-      object-fit: cover;
-    }
-
-    h3 {
-      font-size: 1.4rem;
-      color: $secondary;
-      margin-bottom: 0.5rem;
-    }
-
-    p {
-      font-size: 1rem;
-      margin-bottom: 1rem;
-      color: $text;
-    }
-
-
-  }
-  &_price {
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .home__popular_list {
+    display: flex;
     flex-direction: column;
     align-items: center;
+
+    &_title {
+      font-size: 2.5rem;
+      color: $text;
+      margin-bottom: 3rem;
+    }
+
+    &_list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      gap: 2rem;
+
+      @include on-desktop {
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
+
+      }
+    }
+
+    &_card {
+      position: relative;
+      border-radius: 1rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+      padding: 2rem;
+      text-align: left;
+      transition: transform 0.3s ease;
+      @extend %background;
+
+      &:hover {
+        transform: translateY(-8px);
+      }
+
+      &_img {
+        height: 50%;
+        margin-bottom: 2rem;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 0.75rem;
+        margin-bottom: 1rem;
+        object-fit: cover;
+        height: 100%;
+      }
+
+      h3 {
+        font-size: 1.4rem;
+        color: $text;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        color: $text;
+      }
+    }
+
+    &_more {
+      margin-top: 2rem;
+      background-color: rgba(5, 4, 3, 0.77);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background $transition;
+      width: 200px;
+      text-wrap: nowrap;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+
+      &:hover {
+        background-color: rgb(57, 16, 5);
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.2rem;
+        padding: 0.75rem 4rem;
+        display: flex;
+        column-gap: 1rem;
+        justify-content: space-between;
+        align-items: center;
+
+      }
+
+      &_img {
+        height: 28px;
+        width: 25px;
+        color: white;
+
+      }
+    }
+
+    &_price {
+      position: absolute;
+      bottom: 2rem;
+      left: 2rem;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
   }
 }

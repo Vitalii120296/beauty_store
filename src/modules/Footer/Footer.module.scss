@@ -1,7 +1,93 @@
 @use './../../style/main' as *;
 
 .footer {
-  margin-top: 40px;
-  height: 50px;
-  background-color: $primary;
+  background-color: black;
+  color: $text;
+  padding: 1rem 1rem;
+  margin-top: 4rem;
+  border-top: 2px solid #ddd;
+
+  &__logo {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    display: flex;
+
+    & img {
+      object-position: center center;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+
+    @include on-tablet {
+      justify-content: space-between;
+
+    }
+  }
+
+  &__contact,
+  &__hours,
+  &__navigation,
+  &__social {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    min-width: 220px;
+    line-height: 1.3rem;
+
+    h3 {
+      font-size: 1.5rem;
+      color: $text;
+      margin-bottom: 1rem;
+    }
+
+    p,
+    ul {
+      font-size: 1rem;
+      color: $text;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+
+      li {
+        list-style: disc;
+        margin-bottom: 1rem;
+
+        a {
+          text-decoration: none;
+          color: $text;
+          transition: color 0.3s;
+
+          &:hover {
+            color: rgb(176, 144, 89);
+            /* your button color */
+          }
+        }
+      }
+    }
+  }
+
+  &__social_icons {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      font-size: 1.5rem;
+      color: $text;
+      transition: color 0.3s;
+
+      &:hover {
+        color: rgb(176, 144, 89);
+      }
+    }
+  }
 }

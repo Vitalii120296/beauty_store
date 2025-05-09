@@ -4,16 +4,25 @@
   display: flex;
   flex-direction: column;
   row-gap: 12px;
-  height: 400px;
   overflow: hidden;
-  padding: 10px 10px;
+  height: 100%;
+  padding: 10px 10px 20px;
   white-space: pre-line;
   @extend %background;
+
+  &__title {
+
+    & h3 {
+      font-size: 18px;
+
+    }
+  }
 
   &__img {
     display: flex;
     justify-content: center;
-    height: 200px;
+    min-height: 230px;
+    max-height: 230px;
     width: 100%;
     box-sizing: border-box;
     border-radius: 1rem;
@@ -21,7 +30,7 @@
 
 
     & img {
-      height: 200px;
+      height: inherit;
       width: 100%;
       object-fit: cover;
       object-position: center center;
@@ -30,7 +39,63 @@
 
   &__price {
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
+
+    & span {
+      font-size: 12px;
+    }
+  }
+
+  &__description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+  }
+
+  &__skinType {
+    display: flex;
+    // margin-top: auto;
+  }
+
+  &__additionally {
+    // margin-top: auto;
+    display: flex;
+  }
+
+  &__book_now {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 10px;
+    margin-top: auto;
+  }
+
+  &__button {
+    background-color: $bg;
+    height: 45px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background $transition;
+    width: 70%px;
+    text-wrap: nowrap;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+      background-color: $bgh;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.2rem;
+      padding: 0.75rem 4rem;
+
+    }
   }
 }

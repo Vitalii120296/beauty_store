@@ -1,14 +1,19 @@
 @use './style/main.scss' as *;
 
+:root {
+  font-size: 16px;
+}
+
 html,
 body {
   height: 100%;
-  scroll-behavior: smooth;
+  // scroll-behavior: smooth;
   background-image: url('./img/bgphoto.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left bottom;
+  background-position: left top;
+  min-width: 350px;
 }
 
 .app {
@@ -20,7 +25,8 @@ body {
   font-weight: 400;
   font-size: 12px;
 
-  & a {
+  & a,
+  & button {
     cursor: pointer;
     text-decoration: none;
   }
