@@ -23,6 +23,11 @@ export const BurgerMenu = ({toggleBurgerMenu}: {toggleBurgerMenu: () => void}) =
             {t('Contact')}
           </NavLink>
         </li>
+        <li className={s.nav__item} onClick={toggleBurgerMenu}>
+          <NavLink to="about-us" className={s.nav__link}>
+            {t('About us')}
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

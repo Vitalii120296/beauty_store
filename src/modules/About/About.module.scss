@@ -1,0 +1,65 @@
+@use './../../style/main' as *;
+
+.about {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+
+  @extend %background;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 15px;
+
+
+    @include on-tablet {
+      flex-direction: row;
+    }
+
+    @include on-desktop {
+      column-gap: 20px;
+    }
+
+    & img {
+      object-fit: contain;
+      display: block;
+      border-radius: 1rem;
+      width: 85%;
+      float: none;
+      margin: 0 auto 1rem;
+
+
+      @include on-tablet {
+        display: inline-block;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        float: left;
+        width: auto;
+        height: 220px;
+      }
+
+      @include on-desktop {
+        height: 300px;
+      }
+    }
+
+    & p {
+      text-align: center;
+      letter-spacing: 0.8px;
+      line-height: 1.1rem;
+      font-size: 0.9rem;
+      min-width: 50%;
+
+      @include on-tablet {
+        text-align: left;
+
+      }
+    }
+  }
+}

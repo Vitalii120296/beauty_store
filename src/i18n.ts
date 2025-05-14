@@ -1,10 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
-
-
 
 i18n
   .use(Backend)
@@ -13,9 +10,19 @@ i18n
   .init({
     fallbackLng: 'en',
     debug: true,
+    supportedLngs: ['en', 'ru'], 
+    ns: ['HomePage', 'Services', 'Contact', 'Footer', 'NavMenu', 'ServiceCard'], 
+    defaultNS: 'HomePage', // 
+    backend: {
+      loadPath: '/locales/{{lng}}/{{ns}}.json',
+    },
+    detection: {
+      order: ['localStorage', 'cookie', 'navigator'],
+      caches: ['localStorage'],
+    },
     interpolation: {
-      escapeValue: false, // не потрібно для React
-    }
+      escapeValue: false,
+    },
   });
 
 export default i18n;

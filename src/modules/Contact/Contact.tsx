@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import s from './Contact.module.scss';
 import classNames from 'classnames';
-import { FaInstagram, FaFacebookF, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaTiktok } from 'react-icons/fa';
+import { FaInstagram, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaTiktok, FaFacebook, FaYoutube } from 'react-icons/fa';
 import { useServices } from '../../hooks/useServices';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router-dom';
@@ -78,6 +78,7 @@ export const Contact = () => {
             ))}
           </select>
           <input type="text" name="user_name" placeholder={`${t('namePlaceholder')}`} required />
+          <input type="number" name="user_number" placeholder={`${t('numberPlaceholder')}`} required />
           <input type="email" name="user_email" placeholder={`${t('emailPlaceholder')}`} required />
           <textarea rows={5} name="message" placeholder={`${t('messagePlaceholder')}`} required></textarea>
           <button type="submit">{t('sendButton')}</button>
@@ -90,7 +91,7 @@ export const Contact = () => {
           <div className={s.paypal_wrapper}>
             <PayPalButtons
               style={{ layout: 'vertical' }}
-              createOrder={(data, actions) => {
+              createOrder={(_, actions) => {
                 return actions.order.create({
                   intent: 'CAPTURE',
                   purchase_units: [
@@ -103,11 +104,19 @@ export const Contact = () => {
                   ],
                 });
               }}
-              onApprove={(data, actions) => {
-                if (!actions.order) return Promise.resolve(); // додано для типобезпеки
+              onApprove={(_, actions) => {
+                if (!actions.order) return Promise.resolve(); // для типобезпеки
 
                 return actions.order.capture().then((details) => {
-                  alert(`Transaction completed by ${details.payer.name?.given_name}`);
+                  const name =
+                    details.payment_source?.paypal?.name?.given_name ||
+                    details.payer?.name?.given_name;
+
+                  if (name) {
+                    alert(`Transaction completed by ${name}`);
+                  } else {
+                    alert('Transaction completed');
+                  }
                 });
               }}
             />
@@ -117,11 +126,34 @@ export const Contact = () => {
             <div><FaPhoneAlt /> <a href="tel:253-844-5804">253-844-5804</a></div>
             <div><FaEnvelope /> <a href="mailto:testgmail.com">test@gmail.com</a></div>
             <div className={s.contact__socials}>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
-              {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaThreads /></a> */}
-            </div>
+              <a
+                href="https://www.facebook.com/profile.php?id=61554590098725&rdid=wjH16cLHq5z6AN4B&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F198ggEffAh%2F#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaFacebook />
+              </a>
+              <a
+                href="https://www.instagram.com/elegantbrowss?utm_source=qr&igsh=MTM4OWNrNG91cnozZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaYoutube />
+              </a>
+              <a
+                href="https://www.tiktok.com/@elegant.beauty.studio?_t=ZT-8vTRLu7tkOk&_r=1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaTiktok />
+              </a></div>
           </div>
         </div>
 

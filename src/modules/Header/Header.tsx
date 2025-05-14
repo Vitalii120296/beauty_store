@@ -29,7 +29,9 @@ export const Header = () => {
           <div className={s.nav__burger} onClick={toggleBurgerMenu}>
             {activeBurger ? <CloseIcon color={"inherit"} /> : <MenuIcon color={"inherit"} />}
           </div>
-          <NavMenu />
+          <div className={s.nav__wrapper}>
+            <NavMenu />
+          </div>
           <div className={classNames(s.nav__burger_menu, {
             [s.active]: activeBurger,
           })}>

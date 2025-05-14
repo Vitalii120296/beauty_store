@@ -23,6 +23,11 @@ export const NavMenu = () => {
             {t('Contact')}
           </NavLink>
         </li>
+        <li className={s.nav__item}>
+          <NavLink to="about-us" className={s.nav__link}>
+            {t('About')}
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

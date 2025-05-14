@@ -5,10 +5,17 @@ import { Contact } from './modules/Contact';
 import { Services } from './modules/Service';
 import { ScrollToTop } from './modules/shared/ScrollToTop/ScrollToTop';
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
+import { About } from './modules/About';
+
 const YOUR_CLIENT_ID = "AddGSCMR_ytAJvfpYX41iPK3BgD3tQx2KK8hYEhErGm696ROpVZa_vfxQ8I6N_P2sYgtpufTIiQYQxRf";
+const paypalOptions = {
+  clientId: YOUR_CLIENT_ID,
+  currency: "USD",
+  locale: "en_US"
+};
 
 export const Root = () => (
-  <PayPalScriptProvider options={{ clientId: YOUR_CLIENT_ID }}>
+  <PayPalScriptProvider options={paypalOptions}>
     <Router >
       <ScrollToTop />
       <Routes>
@@ -16,6 +23,7 @@ export const Root = () => (
           <Route index element={<HomePage />} />
           <Route path="contact/:serviceId?" element={<Contact />} />
           <Route path="services" element={<Services />} />
+          <Route path="about-us" element={<About />} />
         </Route>
       </Routes>
     </Router>
