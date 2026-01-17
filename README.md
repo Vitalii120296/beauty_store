@@ -23,13 +23,11 @@ Technologies used:
 
 Features:
 
-- Catalog of electronic products (phones, tablets, watches)
 - Responsive design (mobile / tablet / desktop)
 - Clean and modern UI
 - Component-based architecture (React)
 - User-friendly navigation and page structure
 - Optimized layout and semantic HTML
-- No UI frameworks used
 
 
 Getting Started:
