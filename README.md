@@ -1,4 +1,4 @@
-Nice Gadjets - a beauty salon located in the United States of America that offers a wide range of services.
+ELEGANT BEAUTY STUDIO - a beauty salon located in the United States of America that offers a wide range of services.
 #
 The project was created for a real client and is available at the following link:
 #
