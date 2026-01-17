@@ -2,8 +2,8 @@
   "home": {
     "title": "ELEGANT BEAUTY STUDIO",
     "description": {
-      "emphasis": "Elegant Beauty Salon – where your natural beauty shines.",
-      "text": "We combine professionalism, modern techniques, and a warm atmosphere to make every client feel truly special. From facial care to hair and body treatments – we take care of you with love and attention."
+      "emphasis": "Elegant Beauty Studio is a place where the goal is to care for clients not only in beauty but also in health. We use only high-quality and safe methods.",
+      "text": "The combination of professionalism and experience will bring a warm and high-quality atmosphere so that each client will be truly individual and significant. From facial care to hair and body treatments. We take care of you with love and attention."
     },
     "button": "Book now"
   },
@@ -11,52 +11,52 @@
     "title": "Our expertise",
     "branding": {
       "title": "Branding",
-      "text": "We develop a unique style that reflects your individuality."
+      "text": "Studio expertise is an area of ​​professional competence or specialization. The salon team has in-depth knowledge, experience and skills in certain areas.\n1. Trichology and hair treatment.\n2. Anti-aging skin care - rejuvenating procedures, peelings, RF-lifting.\n3. Hardware technology.\n4. Natural and organic procedures - expertise in environmentally friendly and safe care.\n5. Working with sensitive skin.\n6. ProAkne program - use of an individual program of treatment and remission of acne based on diagnostics.\nOften our first consultations are paid due to diagnostics, which is an important factor."
     },
     "communication": {
       "title": "Communication",
-      "text": "We create honest and respectful dialogue with every client."
+      "text": "1. Personalized approach to each client. We build trusting relationships with each patient — from the first call to subsequent care.\n2. Fast and accessible feedback. Clients receive responses within an hour — via WhatsApp, email, social networks or calls.\n3. Multilingual support. We speak several languages ​​— English, Russian, Ukrainian, Moldovan — so that everyone feels comfortable.\n4. Modern digital solutions. Online booking, tex messages reminders. Reminder calls.\n5. Collection and analysis of feedback. We don’t just accept feedback — we act on it. 90% of changes in our service are based on real customer requests."
     },
     "strategy": {
       "title": "Strategy",
-      "text": "We use innovative methods and a personalized approach for each beauty goal."
+      "text": "Our strategy exists to help people gain self-confidence. Our value is respect, honesty, support and professionalism.\nMen and women aged 18-100 whom we are ready to accept had confidence in reliability, feel more beautiful and healthier.\nHIPAA privacy of personal information is the most important factor for us.\nQuick response, sensitivity, openness and education of each client."
     }
   },
   "benefits": {
     "title": "Why Choose Us",
     "team": {
       "title": "Professional Team",
-      "text": "Certified experts with years of experience ready to serve your beauty needs."
+      "text": "Elegant Beauty Studio employs a team that is passionate about their work. Each of them has experience and is constantly improving to provide you with the highest level of service. We have a team that sincerely cares about each client. We strive to create an atmosphere of coziness and comfort, where everyone will feel individual."
     },
     "products": {
       "title": "Premium Products",
-      "text": "We use only top-tier, skin-safe cosmetics and haircare solutions."
+      "text": "We use high-quality products or services that are usually priced higher than their counterparts. They offer exceptional quality, unique features, or additional services that are not available in standard products that are exceptional and have a high level of service."
     },
     "atmosphere": {
-      "title": "Relaxing Atmosphere",
-      "text": "Enjoy a calm, beautiful space where you can unwind and feel truly pampered."
+      "title": "Atmosphere",
+      "text": "In our Elegant Beauty Studio we have created a cozy and relaxing atmosphere using soft colors and natural materials in the interior. We pay attention to details so that each client feels at home. Warm lighting, light aromas and calm music create an atmosphere of complete comfort and relaxation."
     }
   },
   "about": {
     "title": "Who we are",
-    "text": "We are a team of professionals passionate about our craft. At Erasy salon, we combine experience, care, and creativity to highlight your natural beauty and give you a true sense of harmony and confidence."
+    "text": "We are a team that strives to help others using our knowledge and experience. We value honesty, openness and strive for constant development. Elegant Beauty Studio strives to ensure that everyone who contacts us feels support and care. The goal is to create a space where everyone can find a solution to their problems."
   },
   "popular": {
     "title": "Top Services",
-    "hair": {
-      "title": "Hair Styling",
-      "text": "Elegant haircuts, evening styling and care with premium products.",
-      "price": "from $45"
+    "deep": {
+      "title": "Deep pore cleaning",
+      "text": "Benefits: cleanses pores and excess sebum, prevents inflammation and acne, exfoliates, reduces breakouts, smoothes skin.",
+      "price": "$60.99"
     },
     "nails": {
-      "title": "Nail Design",
-      "text": "Trendy manicures and nail art using top-quality, skin-safe gel polishes.",
-      "price": "from $35"
+      "title": "Tinting (Brows & Lashes)",
+      "text": "Benefits: enhances color and definition without daily makeup, ideal for light or sparse hairs, making them more visible, waterproof, saves time in daily routines, results last around 3–6 weeks.",
+      "price": "$59.99"
     },
     "face": {
-      "title": "Facial Care",
-      "text": "Deep cleansing, hydration, and rejuvenation treatments for glowing skin.",
-      "price": "from $50"
+      "title": "Lamination (Brows & Lashes)",
+      "text": "Benefits: straightens and lifts brow hairs to create a fuller, fluffier look, helps reshape unruly or thinning brows for a sleek, polished appearance, can cover gaps or uneven growth, long-lasting results (typically 4–6 weeks).",
+      "price": "$59.99"
     },
     "more": "More Service"
   },

@@ -21,4 +21,8 @@ export interface ServiceType {
     en: string;
     ru: string;
   };
+  button?: {
+    en: string;
+    ru: string;
+  }
 }

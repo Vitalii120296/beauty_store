@@ -6,8 +6,10 @@ import { Services } from './modules/Service';
 import { ScrollToTop } from './modules/shared/ScrollToTop/ScrollToTop';
 import { PayPalScriptProvider } from "@paypal/react-paypal-js";
 import { About } from './modules/About';
+import { ServicePilling } from './modules/Service/components/ServicePilling';
+import { ServiceAcne } from './modules/Service/components/ServiceAcne/ServiceAcne';
 
-const YOUR_CLIENT_ID = "AddGSCMR_ytAJvfpYX41iPK3BgD3tQx2KK8hYEhErGm696ROpVZa_vfxQ8I6N_P2sYgtpufTIiQYQxRf";
+const YOUR_CLIENT_ID = "AbsfS_9hFFe-J5doymqqISO2MlAFiVOv9kBquU-l2Fa0G47ZJsFK2w0vSG7xMxvKhnYVBmiES1OcZy4R";
 const paypalOptions = {
   clientId: YOUR_CLIENT_ID,
   currency: "USD",
@@ -24,9 +26,11 @@ export const Root = () => (
           <Route path="contact/:serviceId?" element={<Contact />} />
           <Route path="services" element={<Services />} />
           <Route path="about-us" element={<About />} />
+          <Route path="pillings" element={<ServicePilling />} />
+          <Route path="pro-acne" element={<ServiceAcne />} />
         </Route>
       </Routes>
     </Router>
   </PayPalScriptProvider>
 
-);
+);  

@@ -35,6 +35,7 @@ export const Footer = () => {
           <p>{t('monFri')}</p>
           <p>{t('sat')}</p>
           <p>{t('sun')}</p>
+          <p>{t('APPOINTMENT ONLY')}</p>
         </div>
 
         <div className={s.footer__social}>
@@ -48,14 +49,14 @@ export const Footer = () => {
               <FaFacebook />
             </a>
             <a
-              href="https://www.instagram.com/elegantbrowss?utm_source=qr&igsh=MTM4OWNrNG91cnozZA=="
+              href="https://www.instagram.com/elegantbeautystudi?utm_source=qr&igsh=MTM4OWNrNG91cnozZA%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram />
             </a>
             <a
-              href="https://www.youtube.com/"
+              href="https://www.youtube.com/@elegantbeautystudio"
               target="_blank"
               rel="noopener noreferrer"
             >

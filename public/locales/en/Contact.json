@@ -2,9 +2,12 @@
   "title": "Contact form",
   "subtitle": "Fill out the form and our specialist will contact you within an hour",
   "selectService": "Select a service",
-  "namePlaceholder": "Your Name",
-  "emailPlaceholder": "Your Email",
-  "messagePlaceholder": "Your Message",
-  "sendButton": "Send Message",
-  "successMessage": "Message sent successfully!"
+  "namePlaceholder": "Your name",
+  "numberPlaceholder": "Your phone number",
+  "emailPlaceholder": "Your email",
+  "messagePlaceholder": "Your message",
+  "sendButton": "Send message",
+  "successMessage": "Message sent successfully!",
+  "policy": "We value your time and strive to provide the best care for all our patients. To ensure timely service and respect for everyone’s schedule, please take note of our policy:\nAppointments: The $25 deposit is non refundable, will be required to secure your appointment, sent thru Venmo, CashApp, Zelle or PayPal. We ask that you arrive on time for your scheduled appointment. If you are more than 15 minutes late, we may need to reschedule to ensure the best care for all clients.\nNo-Show: If you miss an appointment without prior notice, a fee may be charged $25.00  for the missed appointment.\nCancellations: Please provide at least 48 hours’ notice if you need to cancel or reschedule your appointment.\n*KIDS & PETS ARE NOT ALLOWED *\nThank you for your understanding and cooperation.",
+  "policyTitle": "No-Show and Late Arrival Policy"
 }

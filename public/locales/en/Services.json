@@ -3,7 +3,6 @@
     "note": "(Package deals give discounts)",
     "benefitsTitle": "Benefits:",
     "benefitsText": "Allows hair to be removed from the root, results last from 3 to 6 weeks, hair becomes thinner and less frequent, skin becomes smooth as dead cells are exfoliated, helps reduce ingrown hairs.",
-    
     "women": {
       "title": "WOMAN'S WAXING",
       "fullFace": "FULL FACE",
@@ -12,7 +11,8 @@
       "nostrils": "NOSTRILS",
       "ears": "EARS",
       "fullArms": "FULL ARMS",
-      "halfArms": "HALF ARMS",
+      "upArms": "UPPER ARMS",
+      "downfArms": "FOREARMS",
       "armpits": "ARMPITS",
       "fullStomach": "FULL STOMACH",
       "bikiniClassic": "BIKINI CLASSIC",
@@ -21,12 +21,12 @@
       "upperLegs": "UPPER LEGS",
       "lowerLegs": "LOWER LEGS"
     },
-
     "men": {
       "title": "MEN'S WAXING",
       "armpits": "ARMPITS",
       "fullArms": "FULL ARMS",
-      "halfArms": "HALF ARMS",
+      "upArms": "UPPER ARMS",
+      "downfArms": "FOREARMS",
       "fullLegs": "FULL LEGS",
       "stomachLine": "STOMACH LINE",
       "fullStomach": "FULL STOMACH",
@@ -36,7 +36,6 @@
       "lowerBack": "LOWER BACK",
       "upperBack": "UPPER BACK"
     },
-
     "menFacial": {
       "title": "MEN'S FACIAL WAX",
       "fullCombo": "BEARD + BROW + EARS + NOSTRILS",

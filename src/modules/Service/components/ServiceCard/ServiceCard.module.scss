@@ -21,8 +21,8 @@
   &__img {
     display: flex;
     justify-content: center;
-    min-height: 230px;
-    max-height: 230px;
+    min-height: 350px;
+    max-height: 350px;
     width: 100%;
     box-sizing: border-box;
     border-radius: 1rem;
@@ -55,11 +55,9 @@
 
   &__skinType {
     display: flex;
-    // margin-top: auto;
   }
 
   &__additionally {
-    // margin-top: auto;
     display: flex;
   }
 

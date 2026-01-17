@@ -1,0 +1,82 @@
+[
+  {
+    "url": "acne-program",
+    "img": "./img/services/acne-program.jpg",
+    "title": {
+      "en": "Virtual acne program",
+      "ru": "Онлайн программа борьбы с акне"
+    },
+    "price": {
+      "en": "$500",
+      "ru": "$500"
+    },
+    "description": {
+      "en": "This option covers 6 online visits, education and products orders, along with ongoing support.\nBenefits: We know not everyone can visit us in person. That’s why we offer a fully customized, long-term acne program designed to deliver clear skin—no clinic visits required. Tailored to your skin and lifestyle, it’s an effective, all-in-one solution wherever you are.\n\nAccess to unlimited text chat with specialist questions at any time.",
+      "ru": "Этот вариант включает 6 онлайн-посещений, обучение и заказы продуктов, а также постоянную поддержку.\nПреимущества: Мы знаем, что не все могут посетить нас лично. Вот почему мы предлагаем полностью индивидуальную долгосрочную программу борьбы с акне, разработанную для обеспечения чистой кожи — без визитов в клинику. Это эффективное комплексное решение, адаптированное к вашей коже и образу жизни, где бы вы ни находились.\n\nДоступ к неограниченному текстовому чату со специалистами в любое время."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    }
+  },
+  {
+    "url": "standart-acne-program",
+    "img": "./img/services/standart-acne.jpg",
+    "title": {
+      "en": "Standart acne program",
+      "ru": "Стандартная программа борьбы с акне"
+    },
+    "price": {
+      "en": "$1300",
+      "ru": "$1300"
+    },
+    "description": {
+      "en": "Benefits: Includes 6 hours of in-clinic customized treatments.The treatments scheduled 2-3 weeks apart. Includes manual extractions,  chemical peels, LED light. Last 30 min and more. \nIncludes a set of 8 skincare and non-comedogenic hair care products for an at-home regimen.\nAccess to unlimited text chat with Acne Specialists questions at any time.",
+      "ru": "Преимущества: Включает 6 часов индивидуального лечения в клинике. Процедуры проводятся с интервалом в 2–3 недели. Включает ручную экстракцию, химический пилинг, светодиодное освещение. Продолжительность 30 мин и более.\nВключает набор из 8 средств по уходу за кожей и некомедогенных средств по уходу за волосами для домашнего режима.\nДоступ к неограниченному текстовому чату с вопросами специалистов по борьбе с акне в любое время."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    }
+  },
+  {
+    "url": "mild-acne-program",
+    "img": "./img/services/mild-acne.jpg",
+    "title": {
+      "en": "Mild acne program",
+      "ru": "Програма легкой борьбы с акне"
+    },
+    "price": {
+      "en": "$700",
+      "ru": "$700"
+    },
+    "description": {
+      "en": "Benefits: Includes 3 hours of in-clinic customized treatments.The treatments scheduled 2-3 weeks apart. Includes manual extractions,  chemical peels, LED light. Last 30 min and more. \nIncludes a set of 10 skincare and non-comedogenic hair care products for an at-home regimen.\nAccess to unlimited text chat with Acne Specialists questions at any time.",
+      "ru": "Преимущества: Включает 3 часа индивидуального лечения в клинике. Процедуры проводятся с интервалом в 2–3 недели. Включает ручную экстракцию, химический пилинг, светодиодное освещение. Продолжительность 30 мин и более.\nВключает набор из 10 средств по уходу за кожей и некомедогенных средств по уходу за волосами для домашнего режима.\nДоступ к неограниченному текстовому чату с вопросами специалистов по борьбе с акне в любое время."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    }
+  },
+  {
+    "url": "pro-acne",
+    "img": "./img/services/pro-acneProgram.jpg",
+    "title": {
+      "en": "Pro-acne Program",
+      "ru": "Программа лечения акне"
+    },
+    "price": {
+      "en": "In-Clinic Acne Consultation for Acne Program $79.99\nOnline consultation $79.99",
+      "ru": "Консультация в клинике по программе Pro-Acne — $79.99\nОнлайн-консультация — $79.99"
+    },
+    "description": {
+      "en": "CONSULTATION REQUIRED BEFORE STARTING THE PROGRAM\nFor new clients:\nAn Acne Specialist will make the visual and  skin analysis to find out what kind and grade of acne you have, your skin type and condition. Acne Specialist will teach you how to take care of your acne- prone skin as well as discuss all potential acne triggers. We'l develop an individualized strategy for treatment. your acne with in- clinic treatments and skincare.",
+      "ru": "ПЕРЕД НАЧАЛОМ ПРОГРАММЫ ТРЕБУЕТСЯ КОНСУЛЬТАЦИЯ:\n\nДля новых клиентов:\nСпециалист по акне проведёт визуальный анализ кожи, чтобы определить тип и степень акне, а также общее состояние кожи. Вы получите рекомендации по уходу за кожей, склонной к акне, и обсуждение возможных причин высыпаний.\nМы разработаем индивидуальную стратегию лечения с использованием клинических процедур и правильно подобранного домашнего ухода."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    }
+  }
+]

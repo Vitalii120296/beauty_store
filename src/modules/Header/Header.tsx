@@ -22,7 +22,7 @@ export const Header = () => {
             <img src="./img/logo.png" alt="logo" loading='lazy' />
           </Link>
           <div className={s.header__number}>
-            <a href="tel:+(205) 324-1123">(205) 324-1123</a>
+            <a href="tel:+253-844-5804">253-844-5804</a>
           </div>
         </div>
         <div className={s.nav__wrapper}>

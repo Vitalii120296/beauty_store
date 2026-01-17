@@ -3,6 +3,7 @@
 .home {
   color: $text;
   padding: 2rem 1rem;
+  white-space: pre-line;
 
   &__title {
     display: flex;
@@ -11,7 +12,7 @@
     flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 4rem;
-    height: 600px;
+    height: auto;
 
 
     &_wrapper {
@@ -103,10 +104,10 @@
   }
 
   &__expertise {
-    text-align: center;
     padding: 1rem 0;
 
     &_title {
+      text-align: center;
       font-size: 2.5rem;
       color: $text;
       margin-bottom: 3rem;
@@ -138,6 +139,7 @@
       }
 
       h3 {
+        text-align: center;
         margin-top: 1rem;
         letter-spacing: 1.5px;
         color: $text;
@@ -194,7 +196,7 @@
       @extend %background;
 
       &_img {
-        height: 150px;
+        height: 300px;
         border-radius: 1rem;
         overflow: hidden;
       }
@@ -204,7 +206,7 @@
       }
 
       img {
-        height: 150px;
+        height: 300px;
         width: 100%;
         object-fit: cover;
         margin-bottom: 1rem;
@@ -258,7 +260,7 @@
     }
 
     &_img {
-      height: 170px;
+      height: 270px;
       display: flex;
       justify-content: center;
       overflow: hidden;
@@ -269,8 +271,8 @@
       }
 
       & img {
-        height: 170px;
-        object-fit: cover;
+        // height: 270px;
+        object-fit: contain;
       }
     }
 
@@ -286,28 +288,33 @@
       align-items: center;
       z-index: 1000;
     
-      img {
-        max-width: 90%;
-        max-height: 90%;
-        object-fit: contain;
-        border-radius: 1rem;
-      }
+      & > .home__certificates_wrapper {
+        position: relative;
     
-      button {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        background-color: $bg;
-        border: none;
-        padding: 0.5rem 1rem;
-        border-radius: 0.5rem;
-        font-size: 1rem;
-        cursor: pointer;
-        z-index: 1001;
+        img {
+          max-width: 90vw;
+          max-height: 90vh;
+          object-fit: contain;
+          border-radius: 1rem;
+          display: block;
+        }
     
-        &:hover {
-          background-color: $bgh;
-          color: $text;
+        button {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background-color: $bg;
+          border: none;
+          padding: 0.5rem 1rem;
+          border-radius: 0.5rem;
+          font-size: 1rem;
+          cursor: pointer;
+          z-index: 1;
+    
+          &:hover {
+            background-color: $bgh;
+            color: $text;
+          }
         }
       }
     }

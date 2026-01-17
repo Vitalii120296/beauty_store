@@ -3,6 +3,7 @@ import { ServiceType } from '../../../../types/ServiceType';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 type Props = {
   services: ServiceType[];
@@ -14,7 +15,16 @@ export const ServiceCard: React.FC<Props> = ({ services }) => {
   return (
     <>
       {services.map((card, index) => (
-        <div className={s.card} key={index}>
+        <motion.div
+          className={s.card}
+          key={index}
+          initial={{ scale: 0.5, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{
+            duration: 0.4,
+            delay: 0.2 * index,
+          }}
+        >
           <div className={s.card__img}>
             <img src={card.img} alt={card.title[lang]} loading="lazy" />
           </div>
@@ -38,11 +48,17 @@ export const ServiceCard: React.FC<Props> = ({ services }) => {
             </div>
           )}
           <div className={s.card__book_now}>
-            <button className={s.card__button}>
-              <Link to={`/contact/${card.url}`}>{t('Book now')}</Link>
-            </button>
+            {
+              card.button ?
+                <button className={s.card__button}>
+                  <Link to={`../${card.url}`}>{card.button[lang]}</Link>
+                </button> :
+                <button className={s.card__button}>
+                  <Link to={`/contact/${card.url}`}>{t('Book now')}</Link>
+                </button>
+            }
           </div>
-        </div>
+        </motion.div>
       ))}
     </>
   );
