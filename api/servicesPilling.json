@@ -1,0 +1,22 @@
+[
+  {
+    "url": "pillings",
+    "img": "./img/services/facialPillungs.jpg",
+    "title": {
+      "en": "Facial Pillings",
+      "ru": "Пиллинг для лица"
+    },
+    "price": {
+      "en": "$139.99 - $269.99",
+      "ru": "$139.99 - $269.99"
+    },
+    "description": {
+      "en": "Benefits: Removes dead skin cells, reduces wrinkles and fine lines, fights acne, reduces pigmentation.",
+      "ru": "Преимущества: удаляет омертвевшие клетки кожи, уменьшает морщины и тонкие линии, борьба с акне, уменьшает пигментацию."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: все типы кожи."
+    }
+  }
+]

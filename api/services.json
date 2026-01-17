@@ -1,0 +1,294 @@
+[
+  {
+    "url": "pillings",
+    "img": "./img/services/facialPillungs.jpg",
+    "title": {
+      "en": "Facial Chemical Peels",
+      "ru": "Химические пилинги для лица"
+    },
+    "price": {
+      "en": "$139.99 - $269.99",
+      "ru": "$139.99 - $269.99"
+    },
+    "description": {
+      "en": "Benefits: Removes dead skin cells, reduces wrinkles and fine lines, fights acne, reduces pigmentation.",
+      "ru": "Преимущества: пилинги подбераются индивидуально, по сезону, удаляют омертвевшие клетки кожи, уменьшают морщины и тонкие линии, помогают в борьбе с акне, снижают пигментацию."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    },
+    "button": {
+      "en": "Read more",
+      "ru": "Смотреть больше"
+    }
+  },
+  {
+    "url": "pro-acne",
+    "img": "./img/services/pro-acneProgram.jpg",
+    "title": {
+      "en": "Pro-acne Program",
+      "ru": "Программа лечения акне"
+    },
+    "price": {
+      "en": "In-Clinic Acne Consultation for Acne Program $79.99\nOnline consultation $79.99",
+      "ru": "Консультация в клинике по программе Pro-Acne — $79.99\nОнлайн-консультация — $79.99"
+    },
+    "description": {
+      "en": "CONSULTATION REQUIRED BEFORE STARTING THE PROGRAM\nFor new clients:\nAn Acne Specialist will make the visual and  skin analysis to find out what kind and grade of acne you have, your skin type and condition. Acne Specialist will teach you how to take care of your acne- prone skin as well as discuss all potential acne triggers. We'l develop an individualized strategy for treatment. your acne with in- clinic treatments and skincare.",
+      "ru": "ПЕРЕД НАЧАЛОМ ПРОГРАММЫ ТРЕБУЕТСЯ КОНСУЛЬТАЦИЯ:\nДля новых клиентов:\nСпециалист по акне проведёт визуальный анализ кожи, чтобы определить тип и степень акне, а также общее состояние кожи. Вы получите рекомендации по уходу за кожей, склонной к акне, и обсуждение возможных причин высыпаний.\nМы разработаем индивидуальную стратегию лечения с использованием клинических процедур и правильно подобранного домашнего ухода."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    },
+    "button": {
+      "en": "Read more",
+      "ru": "Смотреть больше"
+    }
+  },
+  {
+    "url": "pigmentation",
+    "img": "./img/services/pigmentation.jpg",
+    "title": {
+      "en": "Pigmentation program",
+      "ru": "Программа лечения пигментации"
+    },
+    "price": {
+      "en": "$1.050 - $1.400",
+      "ru": "$1.050 - $1.400"
+    },
+    "description": {
+      "en": "Benefits: Skincare program focused on depigmentation and brightening, particularly for conditions like melasma and post-inflammatory hyperpigmentation . It involves both in-clinic and at-home treatments.\nMILD CONCERN\n$ -1,050 includes 4 procedures + microneedling. Scheduled 1-2 weeks apart. Consultation + treatment last 30 min- 1 hour.\nIncludes 1 skincare for an at-home regimen. \nAccess to unlimited text chat with Specialist questions at any time.\nSEVERE CONCERN\n$ -1, 400 includes 6 procedures + microneedling. Scheduled 1-2 weeks apart. Consultation + treatment last 30 min- 1 hour.\nIncludes 1 skincare for an at-home regimen. \nAccess to unlimited text chat with Specialist questions at any time.",
+      "ru": "Преимущества:\nПрограмма, направленная на депигментацию и осветление кожи, особенно при таких состояниях, как мелазма и поствоспалительная гиперпигментация. Включает как процедуры в клинике, так и домашний уход.\n\nЛЕГКАЯ СТЕПЕНЬ\n$1,050 — включает 4 процедуры + микронидлинг.\nПланируется с интервалом 1–2 недели.\nКонсультация + процедура: 30 минут – 1 час.\nВключает 1 сыворотку для домашнего ухода.\nДоступ к неограниченному текстовому чату со специалистом.\n\nТЯЖЁЛАЯ СТЕПЕНЬ\n$1,400 — включает 6 процедур + микронидлинг.\nПланируется с интервалом 1–2 недели.\nКонсультация + процедура: 30 минут – 1 час.\nВключает 1 сыворотку для домашнего ухода.\nДоступ к неограниченному текстовому чату со специалистом."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    }
+  },
+  {
+    "url": "hydra_facial",
+    "img": "./img/services/hydraFacial.jpg",
+    "title": {
+      "en": "Hydrodermabrasion",
+      "ru": "Гидродермабразия"
+    },
+    "price": {
+      "en": "$109.00",
+      "ru": "$109.00"
+    },
+    "description": {
+      "en": "Benefits: Gentle exfoliation helps remove dead skin cells. Hypoallergenic and moisturizing solutions are used to restore and hydrate the skin. It stimulates circulation, improving metabolism and promoting skin renewal.",
+      "ru": "Преимущества:  мягкое отшелушивание, которое помогает удалять омертвевшие клетки кожи. использование гипоаллергенных и увлажняющих растворов, что способствует восстановлению и увлажнению кожи. Стимулирует кровообращение, что улучшает обмен веществ и способствует обновлению кожи."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    }
+  },
+  {
+    "url": "dermaplaning_facial",
+    "img": "./img/services/dermaplaningFacial.jpg",
+    "title": {
+      "en": "Dermaplaning Facial",
+      "ru": "Дермопланирование лица"
+    },
+    "price": {
+      "en": "$119.99",
+      "ru": "$119.99"
+    },
+    "description": {
+      "en": "Benefits: removal of dead cells and vellus hair, improved absorption of nutrients.",
+      "ru": "Преимущества: удаление омертвевших клеток и пушковых волос, улучшение всасывания питательных веществ."
+    },
+    "skinType": {
+      "en": "Skin type: oily, combination skin.",
+      "ru": "Типы кожи: жирная, комбинированная."
+    }
+  },
+  {
+    "url": "ultrasonic_facial",
+    "img": "./img/services/ultrasonicFacial.jpg",
+    "title": {
+      "en": "Ultrasonic Facial",
+      "ru": "Ультразвуковой уход за лицом"
+    },
+    "price": {
+      "en": "$119.99",
+      "ru": "$119.99"
+    },
+    "description": {
+      "en": "Benefits: high-frequency ultrasound wave enhances blood circulation, promotes cell renewal, prevents acne, prevents inflammation, general skin rejuvenation.",
+      "ru": "Преимущества: ультразвуковые волны высокой частоты усиливают кровообращение, способствуют обновлению клеток, профилактике акне и предотвращению воспалительных процессов, способствуют омоложению кожи."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    }
+  },
+  {
+    "url": "face_and_decollete_massage",
+    "img": "./img/services/faceDecolleteMassage.jpg",
+    "title": {
+      "en": "Face and decollete massage",
+      "ru": "Массаж лица, шеи и зоны декольте"
+    },
+    "price": {
+      "en": "$99.99",
+      "ru": "$99.99"
+    },
+    "description": {
+      "en": "Benefits: improves blood circulation, relaxes muscles, reduces swelling, lymphatic drainage, tightens facial contours.",
+      "ru": "Преимущества: улучшает циркуляцию крови,  расслабляет мышцы, борется с мигренью, уменьшает отёчность, обеспечивает лимфодренаж, подтягивает контур лица."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    }
+  },
+  {
+    "url": "microneedling",
+    "img": "./img/services/microneedling.jpg",
+    "title": {
+      "en": "Microneedling",
+      "ru": "Микронидлинг"
+    },
+    "price": {
+      "en": "$174.99",
+      "ru": "$174.99"
+    },
+    "description": {
+      "en": "Benefits: stimulates deep skin layers for natural rejuvenation, production of collagen and elastin, improves skin elasticity, reduces pores, reduces scars, removes wrinkles.",
+      "ru": "Преимущества: стимулирует глубокие слои кожи для естественного омоложения, усиливает выработку коллагена и эластина, улучшает упругость кожи, сокращает поры, уменьшает рубцы и шрамы, помогает уменьшить морщины."
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    }
+  },
+  {
+    "url": "scalp_needling_or_trich_needling",
+    "img": "./img/services/scalpNeedling.jpg",
+    "title": {
+      "en": "Scalp needling / trich needling",
+      "ru": "Микронидлинг кожи головы / трихонидлинг"
+    },
+    "price": {
+      "en": "$174.99",
+      "ru": "$174.99"
+    },
+    "description": {
+      "en": "Benefits: stimulates hair growth, promotes better nutrition of hair follicles and activates new hair growth, improves hair density, combats dandruff, dry scalp and itching, local alopecia, for people with hereditary baldness.",
+      "ru": "Преимущества:\n— стимулирует рост волос\n— улучшает питание волосяных фолликулов\n— активирует рост новых волос\n— повышает плотность и густоту волос\n— помогает при перхоти, сухости и зуде кожи головы\n— эффективен при очаговой и наследственной алопеции"
+    },
+    "skinType": {
+      "en": "Skin type: ALL",
+      "ru": "Тип кожи: подходит для всех типов кожи."
+    }
+  },
+  {
+    "url": "european_deep_pore_cleaning",
+    "img": "./img/services/europeanDeepPoreCleansing.jpg",
+    "title": {
+      "en": "Deep pore cleaning",
+      "ru": "Глубокая очистка пор"
+    },
+    "price": {
+      "en": "$60.99",
+      "ru": "$60.99"
+    },
+    "description": {
+      "en": "Benefits: cleanses pores and excess sebum, prevents inflammation and acne, exfoliates, reduces breakouts, smoothes skin.",
+      "ru": "Преимущества:\nочищение пор и излишков кожного сала, предотвращение образования воспалений и акне, эксфолиация, снижение высыпаний, гладкость кожи."
+    },
+    "skinType": {
+      "en": "Skin type: oily, combination skin.",
+      "ru": "Типы кожи: жирная, комбинированная."
+    }
+  },
+  {
+    "url": "philips_zoom_teeth_whitening_home",
+    "img": "./img/services/philipsZoomTeethWhitening.jpg",
+    "title": {
+      "en": "Philips zoom teeth whitening (take supplies home)",
+      "ru": "Отбеливание зубов Philips Zoom (с комплектом для домашнего использования)"
+    },
+    "price": {
+      "en": "$249.99 + $49.99",
+      "ru": "$249.99 + $49.99"
+    },
+    "description": {
+      "en": "Benefits: fast results, teeth can become noticeably whiter in just one procedure lasts 3 hour, special gel and lamp provide safe whitening, long-lasting effect, minimal discomfort.",
+      "ru": "Преимущества: быстрый результат — зубы могут стать заметно белее уже после одной процедуры, которая длится 3 часа. Специальный гель и лампа обеспечивают безопасное отбеливание, долговременный эффект и минимальный дискомфорт."
+    },
+    "additionally": {
+      "en": "Touch up for returning clients within 6 months $119.99",
+      "ru": "Коррекция для возвращающихся клиентов в течение 6 месяцев — $119.99."
+    }
+  },
+  {
+    "url": "bandage_body_wrap",
+    "img": "./img/services/banageBodyWrap.jpg",
+    "title": {
+      "en": "Bandage body wrap",
+      "ru": "Бандажное обёртывание тела"
+    },
+    "price": {
+      "en": "Full body wrap - $149.99\nHerbel wrap - $139.99\nSeaweed body wrap - $139.99",
+      "ru": "Полное обёртывание тела — $149.99\nТравяное обёртывание — $139.99\nОбёртывание из водорослей — $139.99"
+    },
+    "description": {
+      "en": "Benefits: removes toxins and waste from the body, improves blood circulation and lymphatic drainage, reduces swelling and improves body contours, nourishes and moisturizes the skin, makes it softer and smoother, promotes muscle relaxation and overall well-being.",
+      "ru": "Преимущества: выводит токсины и шлаки из организма, улучшает кровообращение и лимфодренаж, снимает отёки и улучшает контуры тела, питает и увлажняет кожу, делает её более мягкой и гладкой, способствует расслаблению мышц и улучшению общего самочувствия."
+    }
+  },
+  {
+    "url": "tinting",
+    "img": "./img/services/tining.jpg",
+    "title": {
+      "en": "Tinting (Brows & Lashes)",
+      "ru": "Тинтинг (брови и ресницы)"
+    },
+    "price": {
+      "en": "$59.99",
+      "ru": "$59.99"
+    },
+    "description": {
+      "en": "Benefits: enhances color and definition without daily makeup, ideal for light or sparse hairs, making them more visible, waterproof, saves time in daily routines, results last around 3–6 weeks.",
+      "ru": "Преимущества:\n• Усиливает цвет и четкость, без необходимости ежедневного макияжа\n• Подходит для светлых или редких волосков, делая их более заметными\n• Водостойкий\n• Экономит время в повседневной рутине\n• Результаты сохраняются примерно 3–6 недель"
+    }
+  },
+  {
+    "url": "lamination",
+    "img": "./img/services/lamination.jpg",
+    "title": {
+      "en": "Lamination (Brows & Lashes)",
+      "ru": "Ламинирование (брови и ресницы)"
+    },
+    "price": {
+      "en": "$59.99",
+      "ru": "$59.99"
+    },
+    "description": {
+      "en": "Benefits: straightens and lifts brow hairs to create a fuller, fluffier look, helps reshape unruly or thinning brows for a sleek, polished appearance, can cover gaps or uneven growth, long-lasting results (typically 4–6 weeks).",
+      "ru": "Преимущества:\nВыпрямляет и приподнимает волоски бровей, делая их более густыми и пушистыми, помогает скорректировать форму непослушных или редких бровей, придавая им гладкий и ухоженный вид, скрывает пробелы и неравномерный рост волосков, долгосрочный результат (обычно 4–6 недель)."
+    }
+  },
+  {
+    "url": "lamination",
+    "img": "./img/services/full-body-massage.jpg",
+    "title": {
+      "en": "Full body massage",
+      "ru": "Комплексный массаж тела"
+    },
+    "price": {
+      "en": "$110 - 1 hour",
+      "ru": "$110 - 1 час"
+    },
+    "description": {
+      "en": "Benefits: rehabilitative massage after injuries, improves blood circulation, relieves muscle tension, reduces pain, and also promotes accelerated tissue regeneration and strengthens the immune system.\n\nMassage specialist- Vladimir Chernov",
+      "ru": "Преимущества:  реабилитационный массаж после травм, улучшает  кровообращение, снимает мышечное напряжение, уменьшает боль, а также способствует ускоренному восстановлению тканей и укреплению иммунитета.\n\nМассажист - Владимир Чернов"
+    }
+  }
+]

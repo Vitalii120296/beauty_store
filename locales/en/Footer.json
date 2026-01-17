@@ -1,0 +1,19 @@
+{
+  "contactTitle": "Contact Us",
+  "phone": "Phone: 253-844-5804",
+  "email": "Email: elegantbrowsss@gmail.com",
+  "address": "Address: 5900 100th St SW  S#17B Lakewood WA 98499",
+
+  "hoursTitle": "Working Hours",
+  "monFri": "Mon - Fri: 9:00 AM - 5:00 PM",
+  "sat": "Sat: 11:00 AM - 4:00 PM",
+  "sun": "Sun: Closed",
+  "APPOINTMENT ONLY":"APPOINTMENT ONLY",
+
+  "navigationTitle": "Navigation",
+  "home": "Home",
+  "services": "Services",
+  "contact": "Contact",
+  "about": "About",
+  "followUs": "Follow Us"
+}
