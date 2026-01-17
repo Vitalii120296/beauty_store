@@ -9,7 +9,7 @@ import { About } from './modules/About';
 import { ServicePilling } from './modules/Service/components/ServicePilling';
 import { ServiceAcne } from './modules/Service/components/ServiceAcne/ServiceAcne';
 
-const YOUR_CLIENT_ID = "AbsfS_9hFFe-J5doymqqISO2MlAFiVOv9kBquU-l2Fa0G47ZJsFK2w0vSG7xMxvKhnYVBmiES1OcZy4R";
+const YOUR_CLIENT_ID = "";
 const paypalOptions = {
   clientId: YOUR_CLIENT_ID,
   currency: "USD",
